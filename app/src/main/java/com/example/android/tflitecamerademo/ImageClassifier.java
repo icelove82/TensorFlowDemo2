@@ -63,7 +63,6 @@ public abstract class ImageClassifier {
   /** Labels corresponding to the output of the vision model. */
   private List<String> labelList;
 
-
   /** A ByteBuffer to hold image data, to be feed into Tensorflow Lite as inputs. */
   protected ByteBuffer imgData = null;
 
